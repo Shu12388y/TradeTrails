@@ -101,12 +101,12 @@ const products = [
         "price": "50 Per Plant"
       },
       {
-        "name": "Snake plant",
+        "name": "Snake plant Black Gold",
         "image": "img/p4.jpeg",
         "price": "75 Per Plant"
       },
       {
-        "name": "Costus speciosus marginatus plant",
+        "name": "Costus speciosus marginatus variegated plant ",
         "image": "img/p5.jpeg",
         "price": "110 Per Plant"
       },
