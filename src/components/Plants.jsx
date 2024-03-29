@@ -48,9 +48,15 @@ const Plants = () => {
               {products.map((product, index) => (
                 <div key={index} className="col-lg-4 col-md-6 col-sm-12 pb-1">
                   <div className="card product-item border-0 mb-4">
-                    <div className="card-header product-img position-relative overflow-hidden bg-transparent border p-0">
-                      <img className="img-fluid w-100" src={product.image} alt={product.name} />
-                    </div>
+                   <div className="card-header product-img position-relative overflow-hidden bg-transparent border p-0">
+  <img
+    className="img-fluid w-100"
+    src={product.image}
+    alt={product.name}
+    style={{ width: '400px', height: '400px' }}
+  />
+</div>
+
                     <div className="card-body border-left border-right text-center p-0 pt-4 pb-3">
                       <h6 className="text-truncate mb-3">{product.name}</h6>
                       <div className="d-flex justify-content-center">
@@ -178,6 +184,31 @@ const products = [
       {
         "name": "Anthurium Clarinervium",
         "image": "img/p19.jpeg",
+        "price": "500 Per Plants"
+      },
+     {
+        "name": "Coleus Titila whorl yellow",
+        "image": "img/p28.png",
+        "price": "500 Per Plants"
+      },
+	{
+        "name": "Coleus Golden dreams",
+        "image": "img/p29.png",
+        "price": "500 Per Plants"
+      },
+      {
+        "name": "Coleus cong lime spritr",
+        "image": "img/p30.png",
+        "price": "500 Per Plants"
+      },
+    {
+        "name": "Coleus flamingo",
+        "image": "img/p31.png",
+        "price": "500 Per Plants"
+      },
+     {
+        "name": "Coleus strawberry drop",
+        "image": "img/p32.png",
         "price": "500 Per Plants"
       },
 
