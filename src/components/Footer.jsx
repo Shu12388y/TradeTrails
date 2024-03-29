@@ -11,9 +11,9 @@ const Footer = () => {
             </h1>
           </div>
           <p>Welcome to Trade Trails, your one-stop destination for high-quality agricultural products delivered right to your doorstep. Our platform is designed to offer you a seamless and enjoyable shopping experience.</p>
-          <p className="mb-2"><i className="fa fa-map-marker-alt text-primary mr-3"></i>123 Street, New York, USA</p>
-          <p className="mb-2"><i className="fa fa-envelope text-primary mr-3"></i>info@example.com</p>
-          <p className="mb-0"><i className="fa fa-phone-alt text-primary mr-3"></i>+012 345 67890</p>
+          <p className="mb-2"><i className="fa fa-map-marker-alt text-primary mr-3"></i>V6-4-41/1 ,23 East Konchady, Kadjahithlu, Derebail, Mangaluru-575006, Karnataka ,India</p>
+          <p className="mb-2"><i className="fa fa-envelope text-primary mr-3"></i>agro@tradetrails.in  , Sachin@tradetrail.in</p>
+          <p className="mb-0"><i className="fa fa-phone-alt text-primary mr-3"></i>+91 8050522789</p>
         </div>
 
         <div className="col-lg-8 col-md-12">

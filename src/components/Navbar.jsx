@@ -1,4 +1,4 @@
-
+import {Link} from "react-router-dom";
 const Navbar = () => {
   return (
     <div>
@@ -81,8 +81,8 @@ const Navbar = () => {
               id="navbar-vertical">
               <div className="navbar-nav w-100 overflow-hidden" style={{ height: '120px' }}>
                 <div className="nav-item dropdown">
-                  <a href="/" className="nav-item nav-link">Buy Plants</a>
-                  <a href="/" className="nav-item nav-link">Machinery </a>
+                  <Link to="/plants"  className="nav-item nav-link">Buy Plants</Link>
+                  <Link to="/tools" className="nav-item nav-link">Machinery </Link>
                   <a href="/" className="nav-item nav-link">Seeds</a>
                   <a href="/" className="nav-item nav-link">Seeds</a>
                   <a href="/" className="nav-item nav-link">Gardening Tools</a>
@@ -104,8 +104,8 @@ const Navbar = () => {
                 <div className="navbar-nav mr-auto py-0">
                   <a href="index.html" className="nav-item nav-link active">Home</a>
                   <a href="shop.html" className="nav-item nav-link">Shop</a>
-                  <a href="plant.html" className="nav-item nav-link">Plants Categories</a>
-                  <a href="shop.html" className="nav-item nav-link">Tools Categories</a>
+                  <Link to="/plants"  className="nav-item nav-link">Buy Plants</Link>
+                  <Link to="/tools" className="nav-item nav-link">Machinery </Link>
                   <a href="contact.html" className="nav-item nav-link">Contact</a>
                 </div>
                 <div className="navbar-nav ml-auto py-0">
