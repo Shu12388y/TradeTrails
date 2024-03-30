@@ -82,7 +82,7 @@ const Navbar = () => {
               <div className="navbar-nav w-100 overflow-hidden" style={{ height: '120px' }}>
                 <div className="nav-item dropdown">
                   <Link to="/plants"  className="nav-item nav-link">Buy Plants</Link>
-                  <Link to="/tools" className="nav-item nav-link">Machinery </Link>
+                  <Link to="/machine" className="nav-item nav-link">Machinery </Link>
                   <a href="/" className="nav-item nav-link">Seeds</a>
                   <a href="/" className="nav-item nav-link">Seeds</a>
                   <a href="/" className="nav-item nav-link">Gardening Tools</a>
@@ -103,9 +103,9 @@ const Navbar = () => {
               <div className="collapse navbar-collapse justify-content-between" id="navbarCollapse">
                 <div className="navbar-nav mr-auto py-0">
                   <a href="index.html" className="nav-item nav-link active">Home</a>
-                  <a href="shop.html" className="nav-item nav-link">Shop</a>
+                  <a href="#" className="nav-item nav-link">Shop</a>
                   <Link to="/plants"  className="nav-item nav-link">Buy Plants</Link>
-                  <Link to="/tools" className="nav-item nav-link">Machinery </Link>
+                  <Link to="/machine" className="nav-item nav-link">Machinery </Link>
                   <a href="contact.html" className="nav-item nav-link">Contact</a>
                 </div>
                 <div className="navbar-nav ml-auto py-0">
